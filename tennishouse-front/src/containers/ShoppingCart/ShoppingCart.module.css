@@ -1,0 +1,12 @@
+.ShoppingCart{
+    justify-content: center;
+    text-align: center;
+}
+
+.Total{
+    font-weight: bold;
+}
+
+.Products .remove{
+    cursor: pointer;
+}

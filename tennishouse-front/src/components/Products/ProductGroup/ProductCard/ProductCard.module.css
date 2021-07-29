@@ -1,0 +1,25 @@
+.ProductCard{
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 80%;
+    font-size: 0.75rem;
+}
+
+.Clickable{
+    cursor: pointer !important;
+}
+
+
+@media (min-width: 426px){
+    .ProductCard{
+        width: 60%;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1025px){
+    .ProductCard{
+        width: 40%;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,151 @@
+body{
+    margin: 0 0;
+}
+
+.barraNav{
+    border: 2px solid #5cb85c;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-link{
+    color: #5cb85c !important;
+}
+
+.form-control{
+    width: 80%;
+}
+
+.cuotas{
+    border: 2px solid #5cb85c;
+    border-top: none;
+    margin-bottom: 0px;
+    text-align: center !important;
+    width: 100%;
+    /*background-color: #5cb85c;*/
+    color: #5cb85c !important;
+    align-self: center !important;
+}
+
+.carousel{
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.container{
+    margin-top: 20px;
+    
+}
+.row{
+    margin-bottom: 20px;
+    
+}
+
+
+h5{
+    text-align: center;
+    color:#5cb85c;
+    font-weight: bolder;
+}
+h6{
+    font-weight: bolder;
+}
+
+
+
+.logos{
+    background: rgba(76, 175, 80, 0.3);
+    
+}
+.logo{
+    padding: 10px;
+}
+
+.footer-subs{
+    margin-bottom: 50px;
+    background-color: #5cb85c;
+    color: white;
+
+}
+
+.sus{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.fab{
+    color: #5cb85c;
+}
+
+.sus div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+
+ul{
+    list-style-type: none;
+    
+}
+li{
+    color: white;
+}
+
+.card{
+    border: none !important;
+    height: 100%;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+
+a:hover {
+    color: inherit; /* blue colors for links too */
+    text-decoration: underline;
+}
+
+
+@media (max-width: 425px){
+    .p2, .p3, .p4 {
+        display: none;
+    }
+    .footer-about-desk{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    .p3, .p4 {
+        display: none;
+    }
+}
+
+@media (min-width: 426px){
+    .footer-about-mob{
+        display: none;
+    }
+
+}
+
+@media(min-width: 768px){
+    .carousel{
+        width: 65vw;
+    }
+}
+
+@media(min-width: 1025px){
+    .carousel{
+        width:40vw;
+    }
+}

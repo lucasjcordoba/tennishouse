@@ -1,0 +1,145 @@
+body{
+    margin: 0 0;
+}
+
+.padd-0{
+    padding: 0;
+}
+
+.mar-0{
+    margin: 0;
+}
+
+
+.prod{
+    border-radius: 25%;
+}
+.barraNav{
+    border: 2px solid #5cb85c;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.breadcrumb{
+    background-color: white;
+    text-decoration: none;
+}
+
+a{
+    color: #6c757d;
+}
+
+
+
+
+.name-product{
+    border-radius: 50% solid lightgray;
+    background-color: lightgreen;
+}
+
+.buttons-product{
+    color:black
+}
+
+.non-dec{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav-link{
+    color: #5cb85c !important;
+}
+
+.form-control{
+    width: 80%;
+}
+
+.cuotas{
+    border: 2px solid #5cb85c;
+    border-top: none;
+    margin-bottom: 0px;
+    text-align: center !important;
+    width: 100%;
+    /*background-color: #5cb85c;*/
+    color: #5cb85c !important;
+    align-self: center !important;
+}
+
+
+.tarjetas .fab{
+    font-size: 40px;
+    color:gray
+}
+.footer-subs{
+    margin-bottom: 50px;
+    background-color: #5cb85c;
+    color: white;
+
+}
+
+.sus{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.fab{
+    color: #5cb85c;
+}
+
+.sus div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+
+ul{
+    list-style-type: none;
+    
+}
+li{
+    color: black;
+}
+
+
+
+
+.precio-tachado{
+    text-decoration: line-through;
+}
+
+@media (max-width: 425px){
+    .p2, .p3, .p4 {
+        display: none;
+    }
+    .footer-about-desk{
+        display: none;
+    }
+}
+
+
+@media (min-width: 426px){
+    .footer-about-mob {
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .imgs-gallery, .p3 , .p4{
+        display: none;
+    }
+}
+
+@media (min-width: 770px){
+    .producto{
+        display: flex;
+    }
+}

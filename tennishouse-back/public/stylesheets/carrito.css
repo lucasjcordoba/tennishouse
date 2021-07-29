@@ -1,0 +1,86 @@
+.carrito {
+    padding-top: 2%;
+    justify-content: center;    
+}
+
+.barraNav{
+    border: 2px solid #5cb85c;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.piePagina {
+    padding-top: 2%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.titulos {
+    padding-top: 1%;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.productos {
+    text-align: center;
+    padding-top: 2%;
+    border-bottom: 1px dashed #afafaf;
+}
+
+
+.totalCarrito {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resumenCompra {
+    border: 1px dashed #afafaf;
+    font-size: 16px;
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+}
+
+.total {
+    padding-top: 10%;
+
+}
+
+.noneDeskt {
+    font-weight: bold;
+}
+
+.titulos div {
+    padding: 0;
+    text-align: center;
+}
+
+@media (max-width: 767px){
+    .titulos {
+        display: none;
+    }
+    .productos {
+        margin-bottom: 5%;
+    }
+
+}
+
+@media (min-width: 768px){
+    .noneDeskt {
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 990px){   
+        .totalCarrito {
+           margin-top: 5%;
+        }
+
+    }

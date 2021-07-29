@@ -1,0 +1,11 @@
+export const CART_ADD_PRODUCT = 'CART_ADD_PRODUCT';
+export const CART_REMOVE_PRODUCT = 'CART_REMOVE_PRODUCT';
+export const CART_CLEAR = 'CART_CLEAR';
+
+export const AUTH_START = 'AUTH_START';
+export const AUTH_SUCCESS = 'AUTH_SUCCESS';
+export const AUTH_FAIL = 'AUTH_FAIL';
+export const AUTH_LOGOUT = 'AUTH_LOGOUT';
+
+export const PRODUCT_TO_EDIT = 'PRODUCT_TO_EDIT'
+export const CLEAR_PRODUCT_TO_EDIT = 'CLEAR_PRODUCT_TO_EDIT'

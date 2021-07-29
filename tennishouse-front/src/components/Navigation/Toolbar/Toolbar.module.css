@@ -1,0 +1,65 @@
+.Toolbar{
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    height: 87px;
+    border: 1px solid forestgreen;
+
+}
+
+.Navigation{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.Logo {
+    margin-left: 1rem;
+}
+
+.Logo img{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    height: 80px;
+}
+
+
+.NavItems ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: forestgreen;
+}
+
+.NavItems li {
+    padding: 0 0.5rem;
+}
+
+.NavItems a:hover,
+.NavItems a:active {
+    color: black;
+}
+
+.Spacer{
+    flex: 1;
+}
+
+@media (max-width: 768px){
+    .NavItems{
+        display:none;
+    }
+}
+
+@media (min-width: 769px){
+    .ToolbarToggleButton{
+        display:none;
+    }
+    .Logo{
+        margin-left: 0;
+    }
+}
